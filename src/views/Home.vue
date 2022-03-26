@@ -1,6 +1,6 @@
 <template>
   <!-- LANDING PAGE -->
-	<section class="showcase">
+	<section class="showcase" id="home">
 			<div class="video-container">
         <img v-bind:src="rockydesert" alt="Landing Page BG Image"/>
 				<!-- <video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video> -->
@@ -303,6 +303,7 @@
         <h2></h2>
       </div>
       <a><router-link class="link" :to="{ name: 'Contact' }"><h2>Contact Me Here</h2></router-link></a> 
+      <a href="#home" class="btn2">Back to Top</a>
     </div>
   </section>
 </template>

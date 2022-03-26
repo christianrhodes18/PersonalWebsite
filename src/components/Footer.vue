@@ -57,7 +57,7 @@ body {
     padding-top: 10px;
 }
 #content-right {
-    padding-top: 10px;
+  padding-top: 10px;
 
 }
 
@@ -126,4 +126,9 @@ body { background-color: #eee; }
 .footer-social-links a:hover:before{
     background: #111;
 } 
+
+/* Media Queries */ 
+/* @media (max-width: 980px){
+   
+} */
 </style>

@@ -26,4 +26,10 @@ export default {
   margin: 0 35% 50px 35%;
   text-align: left;
 }
+
+@media (max-width: 700px){
+   .contact p {
+    margin: 0 5% 50px 5%;
+  }
+}
 </style>

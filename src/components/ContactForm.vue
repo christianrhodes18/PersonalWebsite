@@ -77,7 +77,7 @@ export default {
     box-sizing: border-box;
 }
 * form {
-    max-width: 420px;
+    max-width: 500px;
     margin: 20px auto;
     background: white;
     text-align: left;
@@ -129,5 +129,21 @@ input[type=submit]:hover {
     background-color: rgb(53, 48, 48);
     padding: 5px;
     width: 30%;
+}
+
+@media (max-width: 1300px){
+   .container {
+       width: 50%;
+   }
+}
+@media (max-width: 700px){
+   .container {
+       width: 80%;
+   }
+}
+@media (max-width: 500px){
+   .container {
+       width: 100%;
+   }
 }
 </style>

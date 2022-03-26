@@ -82,4 +82,10 @@ p {
   background-color: rgb(53, 48, 48)
 }
 
+@media (max-width: 500px){
+   #footer {
+     display: none;
+   }
+}
+
 </style>
