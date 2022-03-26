@@ -88,7 +88,7 @@ import image5 from '../assets/image5.jpg'
 import UE4demo from '../assets/UE4GameMechanics.gif'
 import bullethellgif from '../assets/bullethell.gif'
 import fantasyplatformer from '../assets/fantasyplatformer.gif'
-import donut from '../assets/blenderdonut.gif'
+import donut from '../assets/blender-donut.gif'
 import desert from '../assets/desert.gif'
 import vuecode from '../assets/vuegif.gif'
 export default {
