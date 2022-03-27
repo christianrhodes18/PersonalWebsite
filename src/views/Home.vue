@@ -239,19 +239,22 @@
           <a href="https://www.linkedin.com/in/christianrhodes18/" title="Linkedin" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a> -->
           <!-- <a href="https://twitter.com/chrisrhodesy" title="Twitter" target="_blank"><i class="fa fa-2x fa-twitter"></i></a> -->
           <div class="grid-socials">
-            <p>You can find some of my coding projects on my GitHub, like video game 
-              source code and code projects featuring various programming languages and applications. </p>
+            <div class="grid-item">
+              <p>You can find some of my coding projects on my GitHub, like video game 
+                source code and code projects featuring various programming languages and applications. </p>
+            </div>
             <div class="grid-item">
               <a href="https://github.com/christianrhodes18" title="GitHub" target="_blank" id="custom-logo"><img v-bind:src="github_logo"></a>
             </div>
-            <br>
-            <p>My Linkedin contains professional materials, connections, and contact information. </p>
+            <div class="grid-item">
+              <p>My Linkedin contains professional materials, connections, and contact information. </p>
+            </div>
             <div class="grid-item">
               <a href="https://www.linkedin.com/in/christianrhodes18/" title="Linkedin" target="_blank" id="custom-logo"><img v-bind:src="linkedin_logo"></a>
             </div>
-            <br>
-            <p>My artstation features some of my 3D work, like 3D models and environments. </p>
-            <br>
+            <div class="grid-item">
+              <p>My artstation features some of my 3D work, like 3D models and environments. </p>
+            </div>
             <div class="grid-item">
               <a href="https://www.artstation.com/takensoulz" title="Artstation" target="_blank" id="custom-logo"><img v-bind:src="artstation_logo"></a>
             </div>
@@ -781,10 +784,12 @@ body {
 }
 .grid-socials {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
+  justify-content: center;
   /* grid-template-columns: 50% 50%; */
   grid-template-rows: 1fr;
   column-gap: 20px;
+  column-width: 500px;
   margin-top: -20px;
   margin-left: auto;
   margin-right: auto;
@@ -792,6 +797,9 @@ body {
 .grid-socials img {
   max-width: 200px;
   max-height: 80px;
+}
+.grid-socials p {
+  padding: 20px;
 }
 /* .grid-item {
     background-color: rgba(73, 37, 70, 0.212);
@@ -919,12 +927,12 @@ body {
 /* Extra Rules exclusive to Mobile */
 @media (max-width: 550px){
   .grid-software {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
    }
   .grid-software img {
-      margin-bottom: 40px;
+    margin-bottom: 40px;
    }
-   .video-container img {
+  .video-container img {
     transform: translate(-55%, -50%);
   }
   .arrow img{
