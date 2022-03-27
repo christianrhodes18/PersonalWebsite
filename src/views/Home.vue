@@ -7,8 +7,8 @@
 			</div>
 
 			<div class="content">
-				<h1>Christian Rhodes</h1>
-				<h3>Game Programmer and Software Developer</h3>
+				<h1>Christian <span>Rhodes</span></h1>
+				<h3>Game Programmer <span>+</span> Software Developer</h3>
         <!-- <a href="#about" class="btn">About Me</a> -->
         
         <h2 class="above-arrow">About</h2>
@@ -239,12 +239,19 @@
           <a href="https://www.linkedin.com/in/christianrhodes18/" title="Linkedin" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a> -->
           <!-- <a href="https://twitter.com/chrisrhodesy" title="Twitter" target="_blank"><i class="fa fa-2x fa-twitter"></i></a> -->
           <div class="grid-socials">
+            <p>You can find some of my coding projects on my GitHub, like video game 
+              source code and code projects featuring various programming languages and applications. </p>
             <div class="grid-item">
               <a href="https://github.com/christianrhodes18" title="GitHub" target="_blank" id="custom-logo"><img v-bind:src="github_logo"></a>
             </div>
+            <br>
+            <p>My Linkedin contains professional materials, connections, and contact information. </p>
             <div class="grid-item">
               <a href="https://www.linkedin.com/in/christianrhodes18/" title="Linkedin" target="_blank" id="custom-logo"><img v-bind:src="linkedin_logo"></a>
             </div>
+            <br>
+            <p>My artstation features some of my 3D work, like 3D models and environments. </p>
+            <br>
             <div class="grid-item">
               <a href="https://www.artstation.com/takensoulz" title="Artstation" target="_blank" id="custom-logo"><img v-bind:src="artstation_logo"></a>
             </div>
@@ -285,7 +292,7 @@
         <!-- RESUME PDF LINK -->
         <div class="resume-link" id="toggle-space">
           <h2><u>My Resume</u></h2>
-          <a id="download" href="https://drive.google.com/file/d/1BroM6SEiVah3v9ty2bY9zuZtx4j1WxSb/view?usp=sharing" title="resume_download" target="_blank">View Resume in Browser (Google Drive)</a>
+          <a id="download" href="https://drive.google.com/file/d/1TUWHh7Na-cqPj0CGrPstkSQHs6jg1LFE/view?usp=sharing" title="resume_download" target="_blank">View Resume in Browser (Google Drive)</a>
         </div>
         <div id="toggle-space-lower">
           <h3></h3>
@@ -303,9 +310,10 @@
         <h2></h2>
       </div>
       <a><router-link class="link" :to="{ name: 'Contact' }"><h2>Contact Me Here</h2></router-link></a> 
-      <a href="#home" class="btn2">Back to Top</a>
+      <div class="divider div-transparent"></div>
     </div>
   </section>
+  <a href="#home" class="btn2">Back to Top</a>
 </template>
 
 
@@ -802,17 +810,17 @@ body {
 
 
 /* PORTFOLIO SPECIFIC */
-#portfolio {
+/* #portfolio {
   background-color: rgba(199, 238, 207, 0.26);
-}
+} */
 
 
 
 
 /* RESUME SPECIFIC */
-#resume {
+/* #resume {
   background-color: rgba(210, 238, 255, 0.267);
-}
+} */
 
 
 
@@ -834,6 +842,9 @@ body {
 .social a {
   color: rgb(0, 0, 34);
   text-decoration: underline;
+}
+.social p {
+  margin: auto auto;
 }
 
 
@@ -873,11 +884,11 @@ body {
    .grid-socials {
       grid-template-columns: repeat(1, 1fr);
    }
+   .grid-socials img {
+      max-width: auto;
+   }
    .grid-software {
       grid-template-columns: repeat(3, 1fr);
-   }
-   .grid-software img {
-      margin: 50px 0 50px 0;
    }
    #about h3 {
      font-size: 30px;
@@ -886,18 +897,44 @@ body {
      text-align: center;
      font-size: 24px;
      margin: 20px 0 10px 0;
-   }
+    }
    .item-description li {
-     margin-left: 25%;
+     margin: 0 0 0 0;
+     padding: 0 0 0 0;
      text-align: left;
      font-size: 18px;
-   }
+    }
+   .leftColumn, .rightColumn, footer, header {
+    /*border: 1px solid  #ccc;*/
+    padding: 0;
+    } 
    #gifs {
      max-height: 500px;
      max-width: 100%;
-   }
+    }
    #portrait {
     max-height: 600px;
+    }
+}
+/* Extra Rules exclusive to Mobile */
+@media (max-width: 550px){
+  .grid-software {
+      grid-template-columns: repeat(2, 1fr);
+   }
+  .grid-software img {
+      margin-bottom: 40px;
+   }
+   .video-container img {
+    transform: translate(-55%, -50%);
+  }
+  .arrow img{
+    margin-bottom: -250px;
+  }
+  .showcase h1 span {
+    display: block;
+  }
+  .showcase h3 span {
+    display: block;
   }
 }
 </style>
