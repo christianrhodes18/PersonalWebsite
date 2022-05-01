@@ -2,7 +2,7 @@
   <!-- LANDING PAGE -->
 	<section class="showcase" id="home">
 			<div class="video-container">
-        <img v-bind:src="rockydesert" alt="Landing Page BG Image"/>
+        <img v-bind:src="upsplashBG" alt="Landing Page BG Image"/>
 				<!-- <video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video> -->
 			</div>
 
@@ -328,6 +328,7 @@ import azsun from '../assets/AZsun.jpg'
 import arrow from '../assets/downarrow.png'
 import profilepicture from '../assets/2019_ProfPic.jpg'
 import rockydesert from '../assets/rockydesert2.png'
+import upsplashBG from '../assets/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg'
 import gameicon from '../assets/icons8-game-96-backup.png'
 import fantasyplatformer from '../assets/fantasyplatformer.gif'
 import vuecode from '../assets/vuegif.gif'
@@ -358,6 +359,7 @@ export default {
       azsun: azsun,
       arrow: arrow,
       profilepicture: profilepicture,
+      upsplashBG: upsplashBG,
       rockydesert: rockydesert,
       gameicon: gameicon,
       fantasyplatformer: fantasyplatformer,
