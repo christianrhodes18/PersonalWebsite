@@ -8,7 +8,7 @@
 
 			<div class="content">
 				<h1>Christian <span>Rhodes</span></h1>
-				<h3>Game Programmer <span>+</span> Software Developer</h3>
+				<h3>Web Developer</h3>
         <!-- <a href="#about" class="btn">About Me</a> -->
         
         <h2 class="above-arrow">About</h2>
@@ -43,11 +43,9 @@
         <!-- <h2>Left Column (fluid)</h2> -->
         <h1>About Me</h1>
         <p>
-        Hello, I am Christian Rhodes and I'm 23 years old. I am currently studying Computer Science at the University of Vermont. 
-        I am passionate about video games and how they are made! I have been programming since 2019 and participating 
-        in game development in various ways since 2021. My goal is to work in the AAA game industry contributing to the 
-        creation of modern game experiences. I am always learning new techniques and industry practices to further my skills and 
-        propel me to work professionally in the industry after graduating university in 2023.
+        Hello, I am Christian Rhodes and I am currently a senior studying Computer Science at the University of Vermont. 
+        I have been programming since 2019, learning everything I can to be a well-rounded developer writing clean and efficient code. 
+        My focus is in Front-End Development - creating enjoyable experiences on the web for users to interact with and learn from. 
         </p>
         <div class="divider div-transparent div-arrow-down"></div>
 
@@ -56,62 +54,58 @@
         <div class="interest">
           <div class="grid-skills">
             <div class="grid-item">
-              <h3>Game Development</h3>
+              <h3>Web Development</h3>
               <img id="gifs" v-bind:src="fantasyplatformer" />
               <div class="item-description">
                 <ul>
-                  <h4>Gameplay Programming</h4>
-                  <li>Systems (Quests, Inventory, Abilities)</li>
-                  <li>Mechanics</li>
-                  <li>AI (Behavior, Combat)</li>
-                  <li>Animation</li>
-                  <h4>Game Design</h4>
-                  <li>Level design</li>
-                  <li>System design</li>
-                  <li>Combat design</li>
-                  <li>Cinematic design</li>
+                  <h4>Core Skills</h4>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>UI / UX</li>
+                  <li>Git</li>
+                  <h4>Frameworks and Libraries</h4>
+                  <li>React</li>
+                  <li>Vue</li>
+                  <li>JQuery.js</li>
+                  <li>Three.js</li>
+                  <li>REST API</li>
                 </ul>
               </div>   
             </div>
 
             <div class="grid-item">
-              <h3>Coding</h3>
+              <h3>Software</h3>
               <img id="gifs" v-bind:src="vuecode" />
               <div class="item-description">
                 <ul>
                   <h4>Languages (by familiarity)</h4>
+                  <li><b>HTML, CSS, Javascript</b> (since 2019)</li>
                   <li><b>C++</b> (since 2020)</li>
                   <li><b>Python</b> (since 2019)</li>
                   <li><b>C#</b> (since 2020)</li>
-                  <li><b>HTML, CSS, Javascript</b> (since 2019)</li>
                   <li><b>C</b> (since 2022)</li>
                   <h4>Applications</h4>
+                  <li>Web Applications</li>
+                  <li>Data Driven Applications</li>
                   <li>Game Programming</li>
-                  <li>Misc. Projects</li>
-                  <li>Web Development (full stack)</li>
                 </ul>
-              </div>   
+              </div>
 
             </div> 
             <div class="grid-item">
-              <h3>3D / Environments</h3>
+              <h3>Mobile / Cross Platform Development </h3>
               <img id="gifs" v-bind:src="desert" />
               <div class="item-description">
                 <ul>
-                <h4>3D</h4>
-                  <li>Modelling and Sculpting</li>
-                  <li>Texturing</li>
-                  <li>Animation</li>
-                  <li>Lighting and Particles</li>
-                  <li>Compositing and Rendering</li>
-                <h4>3D Creations</h4>
-                  <li>Realistic / Stylized Environments</li>
-                  <li>Characters</li>
-                  <li>Objects</li>
-                  <li>Cinematic Shorts</li>
+                <h4>Languages and Tools</h4>
+                  <li>Swift (since 2022)</li>
+                  <li>Flutter</li>
+                <h4>UI / UX</h4>
+                  <li>Figma</li>
                 </ul>
-              </div>   
-            </div> 
+              </div>
+            </div>
           </div>
         </div>
       </div>
