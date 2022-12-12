@@ -1,19 +1,9 @@
-# portfolio
+# Personal Portfolio - OUTDATED
 
-## Project setup
-```
-npm install
-```
+## New Personal Website can be found [here](christian-rhodes.com)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This portfolio site was my first website made with a JavaScript framework. Vue is very lightweight and boasts great load times. This was appealing to me since I wanted to display many graphics on one page, including gifs. Originally, this portfolio had many pages, but I decided on a more simple single page application, with some dynamic content being shown or hidden on toggle.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Technologies:
+- Vue.js
+- Netlify for hosting
